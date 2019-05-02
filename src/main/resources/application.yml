@@ -1,0 +1,27 @@
+#Simple properties
+db:
+  className:com.mysql.jdbc.Driver
+  name:schooldb
+  port:7678
+  userName:schoolmaster
+  password:hispassword
+
+another:
+  value1:value1
+  value2:value2
+
+myprop:
+  list:
+    - value1: my name1
+      value2: my description1
+    - value1: my name 2
+      value2: my description 2
+ 
+mymapprop:
+  beanMap:
+    key1:
+      value1: my name1
+      value2: my description1		
+    key2:
+      value1: my name2
+      value2: my description2
